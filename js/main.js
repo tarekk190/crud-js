@@ -85,7 +85,7 @@ function demo(pvalue) {
     }
 }
 
-var pUrlRegax = /^https:\/\/www\.[a-zA-Z0-9-]{3,}$/;
+var pUrlRegax = /^https:\/\/www\.[a-zA-Z0-9-]{3,}.com$/;
 
 function rule(pvalue) {
     if (pUrlRegax.test(pvalue)) {
